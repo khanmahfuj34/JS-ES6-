@@ -3,7 +3,7 @@ const discount = product.price * 20 / 100;
 const yourPay = product.price - discount;
 const vatAmount = yourPay * 7 / 100;
 const totalAmount = yourPay + vatAmount;
-console.log("Product Price:", totalAmount);
+console.log("Final Price:", totalAmount);
 
 //more short
 const total = product.price - (product.price * 20 / 100) + ((product.price - (product.price * 20 / 100)) * 7 / 100);
